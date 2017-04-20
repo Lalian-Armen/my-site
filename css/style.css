@@ -1,8 +1,8 @@
 html,body{
 	margin: 0;
 	padding: 0;
-	font-family: Arial,sans-serif;
-	color: rgb(77,77,77);
+	font-family: 'Noto Serif','Arial', serif;
+	color: #4d4d4d;
 	background-color: #eae5e5;
 }
 .container{
@@ -58,4 +58,74 @@ html,body{
 .main-menu li:hover a{
 	color: #65d0d4;
 	transition: .5s;
+}
+main{
+	margin-top: 50px;
+}
+.col-img{
+	float: left;
+}
+.col-img img{
+	border-radius: 50%;
+}
+/*.col-content{
+	float: left;
+}*/
+.col-img{
+	margin-right: 50px;
+}
+.col-content h2{
+	font-size: 80px;
+	line-height: 0;
+}
+.col-content h3{
+	font-size: 46px;
+	line-height: 23px;
+}
+.breadcrumb{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumb li{
+	float: left;
+	margin-right: 10px;
+}
+.breadcrumb li:last-child{
+	margin-right: 0;
+}
+.breadcrumb li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #e83556;
+	text-align: center;
+	line-height: 120px;
+}
+.breadcrumb .blue a{
+	background-color: #61d0d4;
+}
+.breadcrumb .yellow a{
+	background-color: #d1c926;
+}
+.breadcrumb .red:hover a{
+	background-color: #9b2439;
+	transition: .5s;
+}
+.breadcrumb .blue:hover a{
+	background-color: #418b8d;
+	transition: .5s;
+}
+.breadcrumb .yellow:hover a{
+	background-color: #8b8619;
+	transition: .5s;
+}
+.col-content p:before{
+	content: "";
+	display: table;
+	clear: both;
 }
